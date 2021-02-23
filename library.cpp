@@ -17,6 +17,7 @@
 #pragma comment(lib,"Crypt32.lib")
 #pragma comment(lib,"Bcrypt.lib")
 #pragma comment(lib,"Ncrypt.lib")
+#pragma comment(lib, "Ws2_32.lib")
 #define MY_ENCODING_TYPE  (PKCS_7_ASN_ENCODING | X509_ASN_ENCODING)
 #include <asn_application.h>
 #include <asn_internal.h>
